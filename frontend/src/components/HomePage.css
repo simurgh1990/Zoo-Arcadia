@@ -1,0 +1,34 @@
+.home-page {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+
+.home-page h1 {
+  color: #2a2a72;
+}
+
+.home-page p {
+  color: #404040;
+  font-size: 16px;
+}
+
+.responsiveImage {
+  width: 100%;
+  height:auto;
+}
+
+/* Pour les écrans plus petits */
+@media (max-width: 200px) {
+  .responsiveImage {
+    width: 50%;
+  }
+}
+
+/* Pour les écrans de tablettes */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .responsiveImage {
+    width: 75%;
+  }
+}
